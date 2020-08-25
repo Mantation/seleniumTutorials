@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="187386" started-at="2020-08-12T14:04:51 CAT" finished-at="2020-08-12T14:07:58 CAT">
+    <groups>
+    </groups>
+    <test name="Selenium" duration-ms="187386" started-at="2020-08-12T14:04:51 CAT" finished-at="2020-08-12T14:07:58 CAT">
+      <class name="appModules.testCases.Bookings">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:appModules.testCases.Bookings@3abbfa04]" name="beforeClass" is-config="true" duration-ms="90591" started-at="2020-08-12T14:04:51 CAT" finished-at="2020-08-12T14:06:21 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="executeTest([Ljava.lang.String;)[pri:0, instance:appModules.testCases.Bookings@3abbfa04]" name="executeTest" duration-ms="12" started-at="2020-08-12T14:06:23 CAT" data-provider="EqualsAssertionsProvider" finished-at="2020-08-12T14:06:23 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7a8fa663]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test
+at appModules.testCases.Bookings.executeTest(Bookings.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest([Ljava.lang.String;)[pri:0, instance:appModules.testCases.Bookings@3abbfa04]" name="executeTest" duration-ms="38088" started-at="2020-08-12T14:06:23 CAT" data-provider="EqualsAssertionsProvider" finished-at="2020-08-12T14:07:01 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5ad10c1a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest([Ljava.lang.String;)[pri:0, instance:appModules.testCases.Bookings@3abbfa04]" name="executeTest" duration-ms="23928" started-at="2020-08-12T14:07:01 CAT" data-provider="EqualsAssertionsProvider" finished-at="2020-08-12T14:07:25 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3228d990]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="executeTest([Ljava.lang.String;)[pri:0, instance:appModules.testCases.Bookings@3abbfa04]" name="executeTest" duration-ms="33164" started-at="2020-08-12T14:07:25 CAT" data-provider="EqualsAssertionsProvider" finished-at="2020-08-12T14:07:58 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7e0b9178]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:appModules.testCases.Bookings@3abbfa04]" name="afterTest" is-config="true" duration-ms="3" started-at="2020-08-12T14:07:58 CAT" finished-at="2020-08-12T14:07:58 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- appModules.testCases.Bookings -->
+    </test> <!-- Selenium -->
+  </suite> <!-- Default Suite -->
+</testng-results>
